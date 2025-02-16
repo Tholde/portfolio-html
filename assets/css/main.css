@@ -1687,10 +1687,10 @@ body {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
     .skill-main {
         display: flex;
-        top: 480px;
+        top: 420px;
     }
 }
 
