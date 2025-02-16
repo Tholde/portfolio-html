@@ -1600,7 +1600,7 @@ body {
 }
 
 .timeline-info small {
-    color: #474559;
+    color: #8a888f;
     font-size: 16px;
     font-weight: bold;
     display: inline-block;
@@ -1639,6 +1639,10 @@ body {
     -ms-flex-pack: end;
     justify-content: flex-end;
     margin: 0 auto
+}
+
+.title-info {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1180px) {
@@ -1687,10 +1691,27 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 460px) {
     .skill-main {
         display: flex;
-        top: 420px;
+        top: 480px;
+    }
+}
+
+@media (max-width: 410px) {
+    .skill-main {
+       display: flex;
+       top: 300px;
+    }
+    .title-info {
+       font-size: 1rem;
+    }
+    .title-small {
+       font-size: 1rem;
+    }
+    .timeline-wrapper{
+       width: 400px;
+       left: -60px;
     }
 }
 
