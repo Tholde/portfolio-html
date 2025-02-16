@@ -1701,7 +1701,7 @@ body {
 @media (max-width: 410px) {
     .skill-main {
        display: flex;
-       top: 300px;
+       top: 100px;
     }
     .title-info {
        font-size: 1rem;
