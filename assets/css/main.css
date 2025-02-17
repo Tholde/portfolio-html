@@ -1694,7 +1694,7 @@ body {
 @media (max-width: 460px) {
     .skill-main {
         display: flex;
-        top: 480px;
+        top: 100px;
     }
 }
 
