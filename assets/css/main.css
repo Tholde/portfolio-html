@@ -1009,13 +1009,13 @@ body {
         visibility: hidden;
     }
 
-    /*.intro--banner::before, .intro--banner::after {*/
-    /*    display: none*/
-    /*}*/
-.intro--banner::before, .intro--banner::after {
+    .intro--banner::before, .intro--banner::after {
+        display: none
+    }
+/* .intro--banner::before, .intro--banner::after {
         display: block;
     top: 320px;
-    }
+    } */
     .intro--banner h1 {
         margin-top: 0
     }
